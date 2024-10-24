@@ -21,10 +21,10 @@ pip install flowregimemap
 
 ### Import the Package
 
-First, you need to import the `draw_flow_regime_map_with_imperial` function from the package.
+First, you need to import the `draw_flow_regime_map_with_imperial` function from the correct module:
 
 ```python
-from flowregimemap import draw_flow_regime_map_with_imperial
+from taitel_and_dukler_map import draw_flow_regime_map_with_imperial
 ```
 
 ### Example Usage
@@ -33,7 +33,7 @@ Here’s how to use the function with the provided example parameters:
 
 ```python
 # Import the function
-from flowregimemap import draw_flow_regime_map_with_imperial
+from taitel_and_dukler_map import draw_flow_regime_map_with_imperial
 
 # Example inputs in imperial units
 rho_L_imperial = 62.4  # Liquid density in lb/ft³
